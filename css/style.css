@@ -73,7 +73,7 @@ form{height: 100%;
 
 
 .productos img {
-	width: 30%;
+	width: 15%;
 	height: auto;
 	object-fit: contain;
 	border: 1px solid #666;
@@ -117,3 +117,4 @@ cambiar nav a desplegable con view port menor a 380
 header{
     margin: 0px;
 }
+
