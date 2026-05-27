@@ -20,8 +20,11 @@ header{
 }
 nav li {
 	display: flex;margin: 5px;padding: 5px;flex-direction: column;
-    align-self: center;
+    align-self:center;
 }	
+#logo{
+    align-self: center;
+}
 nav{
     align-items: center;
     text-align: center;

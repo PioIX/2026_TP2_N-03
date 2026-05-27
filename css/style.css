@@ -1,17 +1,41 @@
 *{
-	margin: 0;padding: 0; text-decoration: none;    font-family: 'Roboto', Open Sans, sans-serif;}
+	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';}
 h1{
-	color:#666;text-align: center;}
+	color:#111111;text-align: left;}
 	h2{
-		color:#666;text-align: center;}
+		color:#111111;text-align: left;}
 a {
 	color: white;}
+
+p{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 100;
+}
+div{
+	text-align: left;
+}
 header {
-	background-color:  #666;	color:white;text-align: center;height: 9vh;min-height: 85px;margin: 5px;width:100vw; min-width: 380px;}
+	background-color:  #000000;	color:white;height: 9vh;min-height: 85px;margin: 5px;width:100vw; min-width: 380px;
+
+	border-bottom: 10px solid #ff2222;
+
+	align-content: center;
+	
+	justify-content: left;
+	margin: 0px;
+	width: 100%;
+}
+
 header img {
 		display: inline;margin: 5px;}
 nav {
-	background-color: #666;color:white; }	
+	background-color: #000000;color:white; 
+	align-self: center;
+	justify-content: left;
+	justify-items: left;
+	text-align: left;
+}	
+
 nav li {
 	display: inline;margin: 5px;padding: 5px;vertical-align: middle;                              
 }	
@@ -23,7 +47,7 @@ main img{
 	width: auto;
 }
 footer {
-	color:#666;text-align: center;vertical-align: bottom;}
+	color:#111111;text-align: center;vertical-align: bottom;}
 
 form{height: 100%;
 	display: flex;
@@ -31,11 +55,16 @@ form{height: 100%;
 	align-items: center;
 	justify-content: center;
   }
+
+
  .index-content{height: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	justify-content: left;
+	text-align: left;
+	
+	align-items:flex-start;
+	margin-left: 1rem;
 	
  }
 
@@ -114,6 +143,18 @@ gris #666
 cambiar nav a desplegable con view port menor a 380
 */
 
-header{
-    margin: 0px;
+
+
+hr{
+	color: #ff2222;
+	background-color: #ff2222;
+	border: none;
+	height: 3px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+#logo{
+	width: 10%;
+
 }
