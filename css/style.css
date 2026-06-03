@@ -1,7 +1,9 @@
 *{
 	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';}
 h1{
-	color:#111111;text-align: left;}
+	color:#111111;align-self: center;margin-top: 2rem;margin-bottom: 5rem; padding-bottom: 10px;
+	border-bottom: 4px solid #ee3425;
+}
 	h2{
 		color:#111111;text-align: left;}
 a {
@@ -17,7 +19,7 @@ div{
 header {
 	background-color:  #000000;	color:white;height: 9vh;min-height: 85px;margin: 5px;width:100vw; min-width: 380px;
 
-	border-bottom: 10px solid #ff2222;
+	border-bottom: 10px solid #ee3425;
 
 	align-content: center;
 	
@@ -26,14 +28,16 @@ header {
 	width: 100%;
 }
 
-header img {
-		display: inline;margin: 5px;}
+
+
 nav {
 	background-color: #000000;color:white; 
 	align-self: center;
 	justify-content: left;
 	justify-items: left;
 	text-align: left;
+		margin-left: 4rem;
+
 }	
 
 nav li {
@@ -43,7 +47,7 @@ nav li {
 main{height:78%;
 	}
 main img{
-	height: 50px;
+	height: 100px;
 	width: auto;
 }
 footer {
@@ -64,62 +68,55 @@ form{height: 100%;
 	text-align: left;
 	
 	align-items:flex-start;
-	margin-left: 1rem;
+	margin-left: 4rem;
+	margin-right: 4rem;
 	
  }
 
 
-  .marcas {
+
+hr{
+	color: #ee3425;
+	background-color: #ee3425;
+	border: none;
+	height: 2px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+#logo{
+	width: 20%;
+	display: inline;
+	margin: 5px;
+}
+
+
+.colaboradores{
+	width: 90%	;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	text-align: center;
 	gap: 16px;
 	padding: 20px;
 	height: auto;
 }
-
-.marcas img {
-	width: 15%;
-	height: auto;
-	object-fit: contain;
-	border: 1px solid #ccc;
-	border-radius: 8px;
-	background-color: #fff;
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+ 
+#servicios{
+	li{
+		margin-bottom: 10px;
+	}
 }
 
 
 
-  .productos {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 16px;
-	padding: 20px;
-	height: auto;
-}
+ 
 
 
 
-.productos img {
-	width: 30%;
-	height: auto;
-	object-fit: contain;
-	border: 1px solid #666;
-	border-radius: 8px;
-	background-color: #fff;
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-}
-
-
-.reseñas {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 15px;
-    padding: 5%;
-    background-color: #f9f9f9;
-    
-  }
+/* Estilos preset de reseñas */
 
  
   .comentario {
@@ -138,23 +135,5 @@ form{height: 100%;
 
  
 
-/*rojo: #DA251C   
-gris #666
-cambiar nav a desplegable con view port menor a 380
-*/
 
 
-
-hr{
-	color: #ff2222;
-	background-color: #ff2222;
-	border: none;
-	height: 3px;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-}
-
-#logo{
-	width: 10%;
-
-}
