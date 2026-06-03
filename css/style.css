@@ -1,29 +1,163 @@
+
+/* General */
+
+
 *{
-	margin: 0;padding: 0; text-decoration: none;    font-family: 'Roboto', Open Sans, sans-serif;}
+	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';}
 h1{
-	color:#666;text-align: center;}
+	color:#111111;align-self: center;margin-top: 2rem;margin-bottom: 5rem; padding-bottom: 10px;
+	border-bottom: 4px solid #ee3425;
+}
 	h2{
-		color:#666;text-align: center;}
+		color:#111111;text-align: left;}
 a {
 	color: white;}
+
+p{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 100;
+}
+div{
+	text-align: left;
+}
 header {
-	background-color:  #666;	color:white;text-align: center;height: 9vh;min-height: 85px;margin: 5px;width:100vw; min-width: 380px;}
-header img {
-		display: inline;margin: 5px;}
+	background-color:  #000000;	color:white;height: 9vh;min-height: 85px;margin: 5px;width:100vw; min-width: 380px;
+
+	border-bottom: 10px solid #ee3425;
+
+	align-content: center;
+	
+	justify-content: left;
+	margin: 0px;
+	width: 100%;
+}
+#logo{
+	width: 20%;
+	display: inline;
+	margin: 5px;
+
+}
+
 nav {
-	background-color: #666;color:white; }	
-nav li {
-	display: inline;margin: 5px;padding: 5px;vertical-align: middle;                              
+	background-color: #000000;color:white; 
+	align-self: center;
+	justify-content: left;
+	justify-items: left;
+	text-align: left;
+		margin-left: 4rem;
+
 }	
+
+
+a {
+  color: white;
+}
+
+
+header img {
+  display: inline;
+  margin: 5px;
+}
+
+
+nav li {
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+  vertical-align: middle;
+}
 
 main{height:78%;
 	}
 main img{
-	height: 50px;
+	height: 100px;
 	width: auto;
 }
 footer {
-	color:#666;text-align: center;vertical-align: bottom;}
+	color:#111111;text-align: center;vertical-align: bottom;}
+
+
+
+
+.title{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+  	align-items: center;
+ 	justify-content: center;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+
+hr{
+	color: #ee3425;
+	background-color: #ee3425;
+	border: none;
+	height: 2px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+/* Inicio */
+
+ .index-content{height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+  	align-items: center;
+ 	justify-content: center;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	
+ }
+
+
+
+
+
+
+.colaboradores{
+	width: 90%	;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
+	gap: 16px;
+	padding: 20px;
+  height: auto; }
+  
+  
+.marcas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 16px;
+  padding: 20px;
+  height: auto;
+}
+ 
+#servicios{
+	li{
+		margin-bottom: 10px;
+	}
+}
+
+.marcas img {
+  width: 15%;
+  height: auto;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Contacto */
+
 
 form{height: 100%;
 	display: flex;
@@ -31,89 +165,69 @@ form{height: 100%;
 	align-items: center;
 	justify-content: center;
   }
- .index-content{height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	
- }
-
-
-  .marcas {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	gap: 16px;
-	padding: 20px;
-	height: auto;
-}
-
-.marcas img {
-	width: 15%;
-	height: auto;
-	object-fit: contain;
-	border: 1px solid #ccc;
-	border-radius: 8px;
-	background-color: #fff;
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-}
 
 
 
-  .productos {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 16px;
-	padding: 20px;
-	height: auto;
-}
+
+/* Estilos preset de reseñas */
 
 
 
-.productos img {
-	width: 30%;
-	height: auto;
-	object-fit: contain;
-	border: 1px solid #666;
-	border-radius: 8px;
-	background-color: #fff;
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-}
-
-
+ 
 .reseñas {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 15px;
-    padding: 5%;
-    background-color: #f9f9f9;
-    
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+  padding: 5%;
+  background-color: #f9f9f9;
+}
+
+.comentario {
+  border-radius: 10px;
+  padding: 5%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+
+.comentario .fecha {
+  font-size: 90%;
+  color: #888;
+}
+
+
+
+
+  /* Productos */
+  
+  .division-juegos{
+	margin: 10px;
+}
+
+.productos p{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 40px;
+	text-align: center;
   }
+
+
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px;
+}
 
  
-  .comentario {
-    border-radius: 10px;
-    padding: 5%;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    display: grid;
-    grid-template-rows: auto auto 1fr;
-  }
+.productos img {
+  width: 400px;
+  height: 70%;
+  object-fit: contain;
+  border: 1px solid #666;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 
-  .comentario .fecha {
-    font-size:90%;
-    color: #888;
-    
-  }
-
- 
-
-/*rojo: #DA251C   
-gris #666
-cambiar nav a desplegable con view port menor a 380
-*/
-
-header{
-    margin: 0px;
 }
