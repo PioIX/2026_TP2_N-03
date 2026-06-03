@@ -1,3 +1,7 @@
+
+/* General */
+
+
 *{
 	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';}
 h1{
@@ -27,8 +31,12 @@ header {
 	margin: 0px;
 	width: 100%;
 }
+#logo{
+	width: 20%;
+	display: inline;
+	margin: 5px;
 
-
+}
 
 nav {
 	background-color: #000000;color:white; 
@@ -41,8 +49,6 @@ nav {
 }	
 
 
-
-
 a {
   color: white;
 }
@@ -52,7 +58,6 @@ header img {
   display: inline;
   margin: 5px;
 }
-
 
 
 nav li {
@@ -71,27 +76,18 @@ main img{
 footer {
 	color:#111111;text-align: center;vertical-align: bottom;}
 
-form{height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-  }
 
 
- .index-content{height: 100%;
+
+.title{
 	display: flex;
 	flex-direction: column;
-	justify-content: left;
 	text-align: left;
-	
-	align-items:flex-start;
+  	align-items: center;
+ 	justify-content: center;
 	margin-left: 4rem;
 	margin-right: 4rem;
-	
- }
-
-
+}
 
 hr{
 	color: #ee3425;
@@ -104,38 +100,23 @@ hr{
 	margin-right: 3rem;
 }
 
-#logo{
-	width: 20%;
-	display: inline;
-	margin: 5px;
+/* Inicio */
 
-}
-main {
-  height: 78%;
-}
-
-main img {
-  height: 100px;
-  width: auto;
-}
+ .index-content{height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+  	align-items: center;
+ 	justify-content: center;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	
+ }
 
 
 
-form {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
-.index-content {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .colaboradores{
 	width: 90%	;
@@ -172,6 +153,20 @@ form {
   background-color: #fff;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+
+
+/* Contacto */
+
+
+form{height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+
+
 
 
 /* Estilos preset de reseñas */
