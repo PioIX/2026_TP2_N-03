@@ -1,3 +1,44 @@
+*{
+	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';}
+h1{
+	color:#111111;align-self: center;margin-top: 2rem;margin-bottom: 5rem; padding-bottom: 10px;
+	border-bottom: 4px solid #ee3425;
+}
+	h2{
+		color:#111111;text-align: left;}
+a {
+	color: white;}
+
+p{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 100;
+}
+div{
+	text-align: left;
+}
+header {
+	background-color:  #000000;	color:white;height: 9vh;min-height: 85px;margin: 5px;width:100vw; min-width: 380px;
+
+	border-bottom: 10px solid #ee3425;
+
+	align-content: center;
+	
+	justify-content: left;
+	margin: 0px;
+	width: 100%;
+}
+
+
+
+nav {
+	background-color: #000000;color:white; 
+	align-self: center;
+	justify-content: left;
+	justify-items: left;
+	text-align: left;
+		margin-left: 4rem;
+
+}	
 * {
   margin: 0;
   padding: 0;
@@ -50,6 +91,52 @@ nav li {
   vertical-align: middle;
 }
 
+main{height:78%;
+	}
+main img{
+	height: 100px;
+	width: auto;
+}
+footer {
+	color:#111111;text-align: center;vertical-align: bottom;}
+
+form{height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+
+
+ .index-content{height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: left;
+	
+	align-items:flex-start;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	
+ }
+
+
+
+hr{
+	color: #ee3425;
+	background-color: #ee3425;
+	border: none;
+	height: 2px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+#logo{
+	width: 20%;
+	display: inline;
+	margin: 5px;
 main {
   height: 78%;
 }
@@ -81,6 +168,17 @@ form {
   justify-content: center;
 }
 
+.colaboradores{
+	width: 90%	;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
+	gap: 16px;
+	padding: 20px;
+  height: auto; }
+  
+  
 .marcas {
   display: flex;
   flex-wrap: wrap;
@@ -88,6 +186,12 @@ form {
   gap: 16px;
   padding: 20px;
   height: auto;
+}
+ 
+#servicios{
+	li{
+		margin-bottom: 10px;
+	}
 }
 
 .marcas img {
@@ -108,6 +212,7 @@ form {
   padding: 20px;
 }
 
+ 
 .productos img {
   width: 400px;
   height: 70%;
@@ -119,6 +224,25 @@ form {
 
 }
 
+
+/* Estilos preset de reseñas */
+
+ 
+  .comentario {
+    border-radius: 10px;
+    padding: 5%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+  }
+
+  .comentario .fecha {
+    font-size:90%;
+    color: #888;
+    
+  }
+
+ 
 .reseñas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -139,17 +263,9 @@ form {
   font-size: 90%;
   color: #888;
 }
-
-/*rojo: #DA251C   
-gris #666
-cambiar nav a desplegable con view port menor a 380
-*/
-
-header {
-  margin: 0px;
-}
-
-.division-juegos{
+  /* Productos */
+  
+  .division-juegos{
 	margin: 10px;
 }
 
@@ -157,4 +273,6 @@ header {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 40px;
 	text-align: center;
-}
+  }
+
+
