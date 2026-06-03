@@ -39,50 +39,21 @@ nav {
 		margin-left: 4rem;
 
 }	
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  font-family:
-    "Roboto",
-    Open Sans,
-    sans-serif;
-}
 
-h1 {
-  color: #666;
-  text-align: center;
-}
 
-h2 {
-  color: #666;
-  text-align: center;
-}
+
 
 a {
   color: white;
 }
 
-header {
-  background-color: #666;
-  color: white;
-  text-align: center;
-  height: 9vh;
-  min-height: 85px;
-  margin: 5px;
-  width: 100vw;
-  min-width: 380px;
-}
 
 header img {
   display: inline;
   margin: 5px;
 }
 
-nav {
-  background-color: #666;
-  color: white;
-}
+
 
 nav li {
   display: inline;
@@ -144,15 +115,11 @@ main {
 }
 
 main img {
-  height: 50px;
+  height: 100px;
   width: auto;
 }
 
-footer {
-  color: #666;
-  text-align: center;
-  vertical-align: bottom;
-}
+
 
 form {
   height: 100%;
@@ -206,43 +173,10 @@ form {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-  padding: 20px;
-}
-
- 
-.productos img {
-  width: 400px;
-  height: 70%;
-  object-fit: contain;
-  border: 1px solid #666;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-
-}
-
 
 /* Estilos preset de reseñas */
 
- 
-  .comentario {
-    border-radius: 10px;
-    padding: 5%;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    display: grid;
-    grid-template-rows: auto auto 1fr;
-  }
 
-  .comentario .fecha {
-    font-size:90%;
-    color: #888;
-    
-  }
 
  
 .reseñas {
@@ -265,6 +199,10 @@ form {
   font-size: 90%;
   color: #888;
 }
+
+
+
+
   /* Productos */
   
   .division-juegos{
@@ -278,3 +216,23 @@ form {
   }
 
 
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+ 
+.productos img {
+  width: 400px;
+  height: 70%;
+  object-fit: contain;
+  border: 1px solid #666;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
