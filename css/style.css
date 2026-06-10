@@ -3,7 +3,10 @@
 
 
 *{
-	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';
+	margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Impact';
 }
 
 h1{
@@ -44,6 +47,7 @@ nav {
 	justify-items: left;
 	text-align: left;
 	margin-left: 4rem;
+  display: grid;
 }
 
 a {
@@ -99,7 +103,7 @@ hr{
 
 /* Inicio */
 
- .index-content{
+.index-content{
   height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -146,18 +150,6 @@ hr{
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
- 
-.productos img {
-  width: 400px;
-  height: 70%;
-  object-fit: contain;
-  border: 1px solid #666;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
 /* Contacto */
 
 
@@ -167,10 +159,7 @@ form{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
- }
-
-
-
+}
 
 /* Estilos preset de reseñas */
 
@@ -212,6 +201,26 @@ form{
   
 .division-juegos{
 	margin: 10px;
+}
+
+.productos{
+  display: grid;
+}
+
+.productos img {
+  width: 400px;
+  height: 70%;
+  object-fit: contain;
+  border: 1px solid #666;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  align-content: center;
+}
+
+#divfoto{
+  display: flex;
+  justify-content: center;
 }
 
 .productos p{
