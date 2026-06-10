@@ -21,11 +21,8 @@ p{
 
 header {
 	background-color:  #000000;	color:white;height: 9vh;min-height: 85px;margin: 5px;width:100vw; min-width: 380px;
-
 	border-bottom: 10px solid #ee3425;
-
 	align-content: center;
-	
 	justify-content: left;
 	margin: 0px;
 	width: 100%;
@@ -44,10 +41,7 @@ nav {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family:
-    "Roboto",
-    Open Sans,
-    sans-serif;
+  font-family: "Roboto", Open Sans, sans-serif;
 }
 
 h1 {
@@ -93,11 +87,13 @@ nav li {
 }
 
 main{height:78%;
-	}
+}
+
 main img{
 	height: 100px;
 	width: auto;
 }
+
 footer {
 	color:#111111;text-align: center;vertical-align: bottom;
 }
