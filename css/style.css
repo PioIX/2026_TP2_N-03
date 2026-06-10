@@ -1,3 +1,7 @@
+
+/* General */
+
+
 *{
 	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';
 }
@@ -27,6 +31,11 @@ header {
 	margin: 0px;
 	width: 100%;
 }
+#logo{
+	width: 20%;
+	display: inline;
+	margin: 5px;
+}
 
 nav {
 	background-color: #000000;color:white; 
@@ -35,48 +44,16 @@ nav {
 	justify-items: left;
 	text-align: left;
 	margin-left: 4rem;
-}	
-
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  font-family: "Roboto", Open Sans, sans-serif;
-}
-
-h1 {
-  color: #666;
-  text-align: center;
-}
-
-h2 {
-  color: #666;
-  text-align: center;
 }
 
 a {
   color: white;
 }
 
-header {
-  background-color: #666;
-  color: white;
-  text-align: center;
-  height: 9vh;
-  min-height: 85px;
-  margin: 5px;
-  width: 100vw;
-  min-width: 380px;
-}
 
 header img {
   display: inline;
   margin: 5px;
-}
-
-nav {
-  background-color: #666;
-  color: white;
 }
 
 nav li {
@@ -86,7 +63,8 @@ nav li {
   vertical-align: middle;
 }
 
-main{height:78%;
+main{
+  height:78%;
 }
 
 main img{
@@ -98,25 +76,15 @@ footer {
 	color:#111111;text-align: center;vertical-align: bottom;
 }
 
-form{height: 100%;
+.title{
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-
-.index-content{height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: left;
 	text-align: left;
-	align-items:flex-start;
+	align-items: center;
+ 	justify-content: center;
 	margin-left: 4rem;
 	margin-right: 4rem;
 }
-
-
 
 hr{
 	color: #ee3425;
@@ -129,42 +97,18 @@ hr{
 	margin-right: 3rem;
 }
 
-#logo{
-	width: 20%;
-	display: inline;
-	margin: 5px;
-}
+/* Inicio */
 
-main {
-  height: 78%;
-}
-
-main img {
-  height: 50px;
-  width: auto;
-}
-
-footer {
-  color: #666;
-  text-align: center;
-  vertical-align: bottom;
-}
-
-form {
+ .index-content{
   height: 100%;
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
+  text-align: left;
   align-items: center;
-  justify-content: center;
-}
-
-.index-content {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+ 	justify-content: center;
+	margin-left: 4rem;
+	margin-right: 4rem;
+ }
 
 .colaboradores{
 	width: 90%	;
@@ -202,13 +146,6 @@ form {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-  padding: 20px;
-}
 
  
 .productos img {
@@ -221,8 +158,22 @@ form {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Contacto */
+
+
+form{
+  height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+ }
+
+
+
 
 /* Estilos preset de reseñas */
+
 .comentario {
   border-radius: 10px;
   padding: 5%;
@@ -234,9 +185,7 @@ form {
 .comentario .fecha {
   font-size:90%;
   color: #888;
-  
 }
-
 
 .reseñas {
   display: grid;
