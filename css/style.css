@@ -1,21 +1,24 @@
 *{
-	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';}
-h1{
-	color:#111111;align-self: center;margin-top: 2rem;margin-bottom: 5rem; padding-bottom: 10px;
-	border-bottom: 4px solid #ee3425;
+	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';
 }
-	h2{
-		color:#111111;text-align: left;}
+
+h1{
+	color:#666;text-align: center;
+}
+
+h2{
+	color:#111111;text-align: left;
+}
+
 a {
-	color: white;}
+	color: white;
+}
 
 p{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: 100;
 }
-div{
-	text-align: left;
-}
+
 header {
 	background-color:  #000000;	color:white;height: 9vh;min-height: 85px;margin: 5px;width:100vw; min-width: 380px;
 
@@ -28,17 +31,15 @@ header {
 	width: 100%;
 }
 
-
-
 nav {
 	background-color: #000000;color:white; 
 	align-self: center;
 	justify-content: left;
 	justify-items: left;
 	text-align: left;
-		margin-left: 4rem;
-
+	margin-left: 4rem;
 }	
+
 * {
   margin: 0;
   padding: 0;
@@ -137,6 +138,7 @@ hr{
 	width: 20%;
 	display: inline;
 	margin: 5px;
+}
 main {
   height: 78%;
 }
@@ -274,5 +276,3 @@ form {
 	font-size: 40px;
 	text-align: center;
   }
-
-
