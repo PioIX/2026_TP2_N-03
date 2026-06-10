@@ -3,30 +3,30 @@
 
 
 *{
-	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';}
-h1{
-	color:#111111;align-self: center;margin-top: 2rem;margin-bottom: 5rem; padding-bottom: 10px;
-	border-bottom: 4px solid #ee3425;
+	margin: 0;padding: 0; text-decoration: none;    font-family: 'Impact';
 }
-	h2{
-		color:#111111;text-align: left;}
+
+h1{
+	color:#666;text-align: center;
+}
+
+h2{
+	color:#111111;text-align: left;
+}
+
 a {
-	color: white;}
+	color: white;
+}
 
 p{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: 100;
 }
-div{
-	text-align: left;
-}
+
 header {
 	background-color:  #000000;	color:white;height: 9vh;min-height: 85px;margin: 5px;width:100vw; min-width: 380px;
-
 	border-bottom: 10px solid #ee3425;
-
 	align-content: center;
-	
 	justify-content: left;
 	margin: 0px;
 	width: 100%;
@@ -35,7 +35,6 @@ header {
 	width: 20%;
 	display: inline;
 	margin: 5px;
-
 }
 
 nav {
@@ -44,10 +43,8 @@ nav {
 	justify-content: left;
 	justify-items: left;
 	text-align: left;
-		margin-left: 4rem;
-
-}	
-
+	margin-left: 4rem;
+}
 
 a {
   color: white;
@@ -59,7 +56,6 @@ header img {
   margin: 5px;
 }
 
-
 nav li {
   display: inline;
   margin: 5px;
@@ -67,23 +63,24 @@ nav li {
   vertical-align: middle;
 }
 
-main{height:78%;
-	}
+main{
+  height:78%;
+}
+
 main img{
 	height: 100px;
 	width: auto;
 }
+
 footer {
-	color:#111111;text-align: center;vertical-align: bottom;}
-
-
-
+	color:#111111;text-align: center;vertical-align: bottom;
+}
 
 .title{
 	display: flex;
 	flex-direction: column;
 	text-align: left;
-  	align-items: center;
+	align-items: center;
  	justify-content: center;
 	margin-left: 4rem;
 	margin-right: 4rem;
@@ -102,21 +99,16 @@ hr{
 
 /* Inicio */
 
- .index-content{height: 100%;
+ .index-content{
+  height: 100%;
 	display: flex;
 	flex-direction: column;
-	text-align: left;
-  	align-items: center;
+  text-align: left;
+  align-items: center;
  	justify-content: center;
 	margin-left: 4rem;
 	margin-right: 4rem;
-	
  }
-
-
-
-
-
 
 .colaboradores{
 	width: 90%	;
@@ -126,9 +118,9 @@ hr{
 	text-align: center;
 	gap: 16px;
 	padding: 20px;
-  height: auto; }
-  
-  
+  height: auto;
+}
+
 .marcas {
   display: flex;
   flex-wrap: wrap;
@@ -155,25 +147,46 @@ hr{
 }
 
 
+ 
+.productos img {
+  width: 400px;
+  height: 70%;
+  object-fit: contain;
+  border: 1px solid #666;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
 
 /* Contacto */
 
 
-form{height: 100%;
+form{
+  height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-  }
+ }
 
 
 
 
 /* Estilos preset de reseñas */
 
+.comentario {
+  border-radius: 10px;
+  padding: 5%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
 
+.comentario .fecha {
+  font-size:90%;
+  color: #888;
+}
 
- 
 .reseñas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -195,12 +208,9 @@ form{height: 100%;
   color: #888;
 }
 
-
-
-
-  /* Productos */
+/* Productos */
   
-  .division-juegos{
+.division-juegos{
 	margin: 10px;
 }
 
@@ -208,26 +218,4 @@ form{height: 100%;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 40px;
 	text-align: center;
-  }
-
-
-
-.productos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-  padding: 20px;
-}
-
- 
-.productos img {
-  width: 400px;
-  height: 70%;
-  object-fit: contain;
-  border: 1px solid #666;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-
 }
