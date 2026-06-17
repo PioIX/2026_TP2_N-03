@@ -1,59 +1,65 @@
-
 /* General */
 
-
-*{
-	margin: 0;
+* {
+  margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: 'Impact';
+  font-family: "Impact";
 }
 
-h1{
-	color:#666;text-align: center;
+h1 {
+  color: #666;
+  text-align: center;
 }
 
-h2{
-	color:#111111;text-align: left;
-}
-
-a {
-	color: white;
-}
-
-p{
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-weight: 100;
-}
-
-header {
-	background-color:  #000000;	color:white;height: 9vh;min-height: 85px;margin: 5px;width:100vw; min-width: 380px;
-	border-bottom: 10px solid #ee3425;
-	align-content: center;
-	justify-content: left;
-	margin: 0px;
-	width: 100%;
-}
-#logo{
-	width: 20%;
-	display: inline;
-	margin: 5px;
-}
-
-nav {
-	background-color: #000000;color:white; 
-	align-self: center;
-	justify-content: left;
-	justify-items: left;
-	text-align: left;
-	margin-left: 4rem;
-  display: grid;
+h2 {
+  color: #111111;
+  text-align: left;
 }
 
 a {
   color: white;
 }
 
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  height: 9vh;
+  min-height: 85px;
+  margin: 5px;
+  width: 100vw;
+  min-width: 380px;
+  border-bottom: 10px solid #ee3425;
+  align-content: center;
+  justify-content: left;
+  margin: 0px;
+  width: 100%;
+}
+#logo {
+  width: 20%;
+  display: inline;
+  margin: 5px;
+}
+
+nav {
+  background-color: #000000;
+  color: white;
+  align-self: center;
+  justify-content: left;
+  justify-items: left;
+  text-align: left;
+  margin-left: 4rem;
+  display: grid;
+}
+
+a {
+  color: white;
+}
 
 header img {
   display: inline;
@@ -67,61 +73,63 @@ nav li {
   vertical-align: middle;
 }
 
-main{
-  height:78%;
+main {
+  height: 78%;
 }
 
-main img{
-	height: 100px;
-	width: auto;
+main img {
+  height: 100px;
+  width: auto;
 }
 
 footer {
-	color:#111111;text-align: center;vertical-align: bottom;
+  color: #111111;
+  text-align: center;
+  vertical-align: bottom;
 }
 
-.title{
-	display: flex;
-	flex-direction: column;
-	text-align: left;
-	align-items: center;
- 	justify-content: center;
-	margin-left: 4rem;
-	margin-right: 4rem;
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
-hr{
-	color: #ee3425;
-	background-color: #ee3425;
-	border: none;
-	height: 2px;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	margin-left: 3rem;
-	margin-right: 3rem;
+hr {
+  color: #ee3425;
+  background-color: #ee3425;
+  border: none;
+  height: 2px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 /* Inicio */
 
-.index-content{
+.index-content {
   height: 100%;
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
   text-align: left;
   align-items: center;
- 	justify-content: center;
-	margin-left: 4rem;
-	margin-right: 4rem;
- }
+  justify-content: center;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
 
-.colaboradores{
-	width: 90%	;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	text-align: center;
-	gap: 16px;
-	padding: 20px;
+.colaboradores {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 16px;
+  padding: 20px;
   height: auto;
 }
 
@@ -133,11 +141,11 @@ hr{
   padding: 20px;
   height: auto;
 }
- 
-#servicios{
-	li{
-		margin-bottom: 10px;
-	}
+
+#servicios {
+  li {
+    margin-bottom: 10px;
+  }
 }
 
 .marcas img {
@@ -152,13 +160,12 @@ hr{
 
 /* Contacto */
 
-
-form{
+form {
   height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Estilos preset de reseñas */
@@ -172,7 +179,7 @@ form{
 }
 
 .comentario .fecha {
-  font-size:90%;
+  font-size: 90%;
   color: #888;
 }
 
@@ -198,13 +205,12 @@ form{
 }
 
 /* Productos */
-  
-.division-juegos{
-	margin: 10px;
-}
 
-.productos{
-  display: grid;
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .productos img {
@@ -215,16 +221,14 @@ form{
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  align-content: center;
 }
 
-#divfoto{
+#divfoto {
   display: flex;
   justify-content: center;
 }
 
-.productos p{
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 40px;
-	text-align: center;
+.productos p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
 }
