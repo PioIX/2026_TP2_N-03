@@ -7,9 +7,11 @@
   font-family: "Impact";
 }
 
-h1 {
-  color: #666;
+
+h1{
+	color:#666;
   text-align: center;
+	margin: 3rem;
 }
 
 h2 {
@@ -109,6 +111,12 @@ hr {
   margin-right: 3rem;
 }
 
+
+#historia p {
+	margin-left: 20rem;
+	margin-right: 20rem;
+}
+
 /* Inicio */
 
 .index-content {
@@ -162,10 +170,17 @@ hr {
 
 form {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+ }
+
+
+.inp{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:10%
 }
 
 /* Estilos preset de reseñas */
